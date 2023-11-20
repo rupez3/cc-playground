@@ -58,6 +58,7 @@ final class HostingTableViewCell<Content: View>: UITableViewCell {
         if requiresControllerMove {
             hostingController.didMove(toParent: parentController)
         }
+        
     }
     
 }

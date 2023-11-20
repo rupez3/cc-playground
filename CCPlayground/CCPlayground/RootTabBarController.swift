@@ -24,7 +24,6 @@ class RootTabBarController: UITabBarController {
         
         self.viewControllers = [vc1, vc2, vc3]
         
-        
     }
     
 
