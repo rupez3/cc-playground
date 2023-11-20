@@ -1,0 +1,48 @@
+{
+    "alerts" : [
+        {
+            "docId" : "200826155440056",
+            "title" : "Tech360 Help",
+            "categories" : [
+                "national"
+            ],
+            "isRead" : true,
+            "startDate" : "11\/06\/2023"
+        },
+        {
+            "docId" : "200826155442120",
+            "title" : "Interactive Troubleshooting Guide (ITG) and Einstein Action updates — November 14, 2023",
+            "categories" : [
+                "national"
+            ],
+            "isRead" : true,
+            "startDate" : "11\/14\/2023"
+        }
+    ],
+    "savedArticles" : [
+        {
+            "title" : "Xfinity App Enhancement Release Notes",
+            "categories" : [
+                "national"
+            ],
+            "isRead" : true,
+            "docId" : "200826155448799",
+            "startDate" : ""
+        },
+        {
+            "title" : "Tech360 Help",
+            "startDate" : "",
+            "docId" : "200826155440056",
+            "categories" : [
+                "national"
+            ],
+            "isRead" : true
+        }
+    ],
+    "alertType" : "national",
+    "retry" : {
+        "isRequired" : false,
+        "timeInSeconds" : null
+    },
+    "expirationPeriod" : null
+}
