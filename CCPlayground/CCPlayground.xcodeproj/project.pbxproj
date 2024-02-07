@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8237D5E42B732547004457AB /* TechMetricsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 8237D5E32B732547004457AB /* TechMetricsMock.json */; };
+		8237D5E62B732585004457AB /* TechMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237D5E52B732585004457AB /* TechMetricsModel.swift */; };
+		8237D5E82B732596004457AB /* TechMetricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237D5E72B732596004457AB /* TechMetricsService.swift */; };
+		8251061D2B0C3BBF00D16C68 /* ArticlesPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251061C2B0C3BBF00D16C68 /* ArticlesPagingView.swift */; };
+		8251061F2B0C3CA800D16C68 /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251061E2B0C3CA800D16C68 /* TabMenuView.swift */; };
 		82DC836B2B0AD88A00D70927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC836A2B0AD88A00D70927 /* AppDelegate.swift */; };
 		82DC83722B0AD88A00D70927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DC83702B0AD88A00D70927 /* Main.storyboard */; };
 		82DC83742B0AD88C00D70927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DC83732B0AD88C00D70927 /* Assets.xcassets */; };
@@ -45,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8237D5E32B732547004457AB /* TechMetricsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TechMetricsMock.json; sourceTree = "<group>"; };
+		8237D5E52B732585004457AB /* TechMetricsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMetricsModel.swift; sourceTree = "<group>"; };
+		8237D5E72B732596004457AB /* TechMetricsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMetricsService.swift; sourceTree = "<group>"; };
+		8251061C2B0C3BBF00D16C68 /* ArticlesPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesPagingView.swift; sourceTree = "<group>"; };
+		8251061E2B0C3CA800D16C68 /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
 		82DC83672B0AD88A00D70927 /* CCPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DC836A2B0AD88A00D70927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82DC83712B0AD88A00D70927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8237D5E22B732520004457AB /* TechMetrics */ = {
+			isa = PBXGroup;
+			children = (
+				8237D5E32B732547004457AB /* TechMetricsMock.json */,
+				8237D5E52B732585004457AB /* TechMetricsModel.swift */,
+				8237D5E72B732596004457AB /* TechMetricsService.swift */,
+			);
+			path = TechMetrics;
+			sourceTree = "<group>";
+		};
 		82DC835E2B0AD88A00D70927 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +140,7 @@
 				82DC836A2B0AD88A00D70927 /* AppDelegate.swift */,
 				82DC83AA2B0AD91C00D70927 /* SceneDelegate.swift */,
 				82DC83A82B0AD8F800D70927 /* RootTabBarController.swift */,
+				8237D5E22B732520004457AB /* TechMetrics */,
 				82DC83AC2B0ADC0200D70927 /* Articles */,
 				82DC839A2B0AD8D200D70927 /* First */,
 				82DC839C2B0AD8D200D70927 /* Second */,
@@ -190,6 +211,8 @@
 				82DC83AF2B0ADD2300D70927 /* ArticlesModel.swift */,
 				82DC83B12B0AE08C00D70927 /* ArticlesService.swift */,
 				82DC83B32B0AE0C600D70927 /* ArticlesViewModel.swift */,
+				8251061C2B0C3BBF00D16C68 /* ArticlesPagingView.swift */,
+				8251061E2B0C3CA800D16C68 /* TabMenuView.swift */,
 			);
 			path = Articles;
 			sourceTree = "<group>";
@@ -299,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DC83AE2B0ADC3A00D70927 /* Articles.json in Resources */,
+				8237D5E42B732547004457AB /* TechMetricsMock.json in Resources */,
 				82DC83772B0AD88C00D70927 /* LaunchScreen.storyboard in Resources */,
 				82DC83742B0AD88C00D70927 /* Assets.xcassets in Resources */,
 				82DC83722B0AD88A00D70927 /* Main.storyboard in Resources */,
@@ -329,11 +353,15 @@
 				82DC83A92B0AD8F800D70927 /* RootTabBarController.swift in Sources */,
 				82DC83AB2B0AD91C00D70927 /* SceneDelegate.swift in Sources */,
 				82DC83B42B0AE0C600D70927 /* ArticlesViewModel.swift in Sources */,
+				8237D5E62B732585004457AB /* TechMetricsModel.swift in Sources */,
+				8251061F2B0C3CA800D16C68 /* TabMenuView.swift in Sources */,
 				82DC83B02B0ADD2300D70927 /* ArticlesModel.swift in Sources */,
 				82DC836B2B0AD88A00D70927 /* AppDelegate.swift in Sources */,
 				82DC83A52B0AD8D200D70927 /* Utility.swift in Sources */,
 				82DC83A62B0AD8D200D70927 /* HostingTableViewCell.swift in Sources */,
+				8251061D2B0C3BBF00D16C68 /* ArticlesPagingView.swift in Sources */,
 				82DC83B22B0AE08C00D70927 /* ArticlesService.swift in Sources */,
+				8237D5E82B732596004457AB /* TechMetricsService.swift in Sources */,
 				82DC83A42B0AD8D200D70927 /* SecondViewController.swift in Sources */,
 				82DC83A72B0AD8D200D70927 /* ThirdViewController.swift in Sources */,
 				82DC83A32B0AD8D200D70927 /* FirstViewController.swift in Sources */,

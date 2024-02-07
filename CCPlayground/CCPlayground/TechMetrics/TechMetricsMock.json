@@ -1,0 +1,48 @@
+{
+    "id" : "63221210",
+    "phtrtmJobs" : 0,
+    "toolUsage" : 90.900000000000006,
+    "contactWithin48HoursCount" : 0,
+    "phtPurePassCount" : 0,
+    "techFTR" : 92.900000000000006,
+    "region" : "KEYSTONE REGION",
+    "phtPassRate" : 0,
+    "tnpsSurveyCount" : 4,
+    "metricsList" : [
+        {
+            "value" : 92.900000000000006,
+            "name" : "FTR",
+            "definition" : "First time right (FTR) is the positive percentage of the all-in rework. Rework occurs when 2 tech visits to the same house occur within 30 days. The first tech to visit gets the credit for the additional truck roll.In the first week of each fiscal month, Daily Tech Metric performance in Tech360 may reflect over or understated scores due to low volume of completed work \/ surveys. Please contact your supervisor for details related to FTR.",
+            "color" : "Orange",
+            "exclusionList" : [
+            ]
+        },
+        {
+            "value" : 90.900000000000006,
+            "name" : "Tool Usage",
+            "definition" : "The positive percentage of all eligible jobs that pass required tests.  Some of the tests included are PHT, XM Ingress and Howler usage.In the first week of each fiscal month, Daily Tech Metric performance in Tech360 may reflect over or understated scores due to low volume of completed work \/ surveys.Please contact your Supervisor for details on eligible jobs and included tests for the Division you work in.",
+            "color" : "Blue",
+            "exclusionList" : [
+            ]
+        },
+        {
+            "value" : 100,
+            "name" : "tNPS",
+            "definition" : "Responses of survey question 1, regarding likely to recommend Comcast. Results are tallied from the scores where 9-10 are promoters, 7-8 are passives and 0-6 are detractors.In the first week of each fiscal month, Daily Tech Metric performance in Tech360 may reflect over or understated scores due to low volume of completed work \/ surveys. Please contact your supervisor for details related to tNPS. ",
+            "color" : "Pink",
+            "exclusionList" : [
+            ]
+        }
+    ],
+    "phtJobs" : 0,
+    "techNTId" : "bp-mlahbi642",
+    "techName" : "ACI USA, LLC",
+    "phtFailures" : 0,
+    "metRate" : 0,
+    "contactWithin48HoursRate" : 0,
+    "dataLastReported" : "2\/4\/2024",
+    "phtPurePassRate" : 0,
+    "fiscalMonth" : "February (1\/22\/2024-2\/4\/2024)",
+    "tnpsRate" : 100,
+    "techID" : "2336    "
+}

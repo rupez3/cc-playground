@@ -23,7 +23,7 @@ struct ArticlesModel: Codable {
 
 struct NewArticle: Codable, Identifiable {
     
-    var id: String = UUID().uuidString
+    var id = UUID()
     
     var docId: String?
     var title: String?
@@ -37,7 +37,7 @@ struct NewArticle: Codable, Identifiable {
 }
 
 struct SavedArticle: Codable, Identifiable {
-    var id: String = UUID().uuidString
+    var id = UUID()
     var docId: String?
     var title: String?
     var startDate: String?
