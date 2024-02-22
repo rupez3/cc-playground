@@ -8,23 +8,37 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    let triggerButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("Open", for: .normal)
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "First"
         view.backgroundColor = .systemBackground
         
+        addTriggerButton()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func addTriggerButton() {
+        view.addSubview(triggerButton)
+        triggerButton.addTarget(self, action: #selector(handleTriggerButton(_ :)), for: .touchUpInside)
+        NSLayoutConstraint.activate([
+            triggerButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            triggerButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            triggerButton.widthAnchor.constraint(equalToConstant: 100),
+            triggerButton.heightAnchor.constraint(equalToConstant: 40)
+        ])
     }
-    */
+    
+    @objc func handleTriggerButton(_ sender: UIButton) {
+        let navController = UINavigationController(rootViewController: TechMetricsController())
+        self.present(navController, animated: true)
+    }
 
 }

@@ -30,6 +30,11 @@
 		82DC83B02B0ADD2300D70927 /* ArticlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC83AF2B0ADD2300D70927 /* ArticlesModel.swift */; };
 		82DC83B22B0AE08C00D70927 /* ArticlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC83B12B0AE08C00D70927 /* ArticlesService.swift */; };
 		82DC83B42B0AE0C600D70927 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC83B32B0AE0C600D70927 /* ArticlesViewModel.swift */; };
+		82F547D02B73CCB4007BBDFE /* TechMetricsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F547CF2B73CCB4007BBDFE /* TechMetricsViewModel.swift */; };
+		82F547D22B73D894007BBDFE /* TechMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F547D12B73D894007BBDFE /* TechMetricsView.swift */; };
+		82F547D42B73DC33007BBDFE /* TechMetricsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F547D32B73DC33007BBDFE /* TechMetricsController.swift */; };
+		82F547D62B73E5FE007BBDFE /* TechMetricRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F547D52B73E5FE007BBDFE /* TechMetricRow.swift */; };
+		82F547D82B73EE0F007BBDFE /* TechMetricCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F547D72B73EE0F007BBDFE /* TechMetricCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +82,11 @@
 		82DC83AF2B0ADD2300D70927 /* ArticlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesModel.swift; sourceTree = "<group>"; };
 		82DC83B12B0AE08C00D70927 /* ArticlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesService.swift; sourceTree = "<group>"; };
 		82DC83B32B0AE0C600D70927 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		82F547CF2B73CCB4007BBDFE /* TechMetricsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMetricsViewModel.swift; sourceTree = "<group>"; };
+		82F547D12B73D894007BBDFE /* TechMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMetricsView.swift; sourceTree = "<group>"; };
+		82F547D32B73DC33007BBDFE /* TechMetricsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMetricsController.swift; sourceTree = "<group>"; };
+		82F547D52B73E5FE007BBDFE /* TechMetricRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMetricRow.swift; sourceTree = "<group>"; };
+		82F547D72B73EE0F007BBDFE /* TechMetricCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechMetricCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,11 @@
 				8237D5E32B732547004457AB /* TechMetricsMock.json */,
 				8237D5E52B732585004457AB /* TechMetricsModel.swift */,
 				8237D5E72B732596004457AB /* TechMetricsService.swift */,
+				82F547CF2B73CCB4007BBDFE /* TechMetricsViewModel.swift */,
+				82F547D12B73D894007BBDFE /* TechMetricsView.swift */,
+				82F547D72B73EE0F007BBDFE /* TechMetricCellViewModel.swift */,
+				82F547D52B73E5FE007BBDFE /* TechMetricRow.swift */,
+				82F547D32B73DC33007BBDFE /* TechMetricsController.swift */,
 			);
 			path = TechMetrics;
 			sourceTree = "<group>";
@@ -350,9 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F547D22B73D894007BBDFE /* TechMetricsView.swift in Sources */,
 				82DC83A92B0AD8F800D70927 /* RootTabBarController.swift in Sources */,
 				82DC83AB2B0AD91C00D70927 /* SceneDelegate.swift in Sources */,
 				82DC83B42B0AE0C600D70927 /* ArticlesViewModel.swift in Sources */,
+				82F547D82B73EE0F007BBDFE /* TechMetricCellViewModel.swift in Sources */,
 				8237D5E62B732585004457AB /* TechMetricsModel.swift in Sources */,
 				8251061F2B0C3CA800D16C68 /* TabMenuView.swift in Sources */,
 				82DC83B02B0ADD2300D70927 /* ArticlesModel.swift in Sources */,
@@ -362,9 +379,12 @@
 				8251061D2B0C3BBF00D16C68 /* ArticlesPagingView.swift in Sources */,
 				82DC83B22B0AE08C00D70927 /* ArticlesService.swift in Sources */,
 				8237D5E82B732596004457AB /* TechMetricsService.swift in Sources */,
+				82F547D02B73CCB4007BBDFE /* TechMetricsViewModel.swift in Sources */,
+				82F547D42B73DC33007BBDFE /* TechMetricsController.swift in Sources */,
 				82DC83A42B0AD8D200D70927 /* SecondViewController.swift in Sources */,
 				82DC83A72B0AD8D200D70927 /* ThirdViewController.swift in Sources */,
 				82DC83A32B0AD8D200D70927 /* FirstViewController.swift in Sources */,
+				82F547D62B73E5FE007BBDFE /* TechMetricRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -529,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
